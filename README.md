@@ -1,3 +1,18 @@
+# Build option for orangepizero3
+```
+./compile.sh build BOARD=orangepizero3 \
+BRANCH=current \
+BUILD_DESKTOP=no \
+BUILD_MINIMAL=yes \
+KERNEL_CONFIGURE=no \
+RELEASE=noble \
+NETWORKING_STACK=network-manager \
+ROOTFS_TYPE=f2fs \
+FIXED_IMAGE_SIZE=3000 \
+USE_MAINLINE_GOOGLE_MIRROR=yes
+```
+---
+
 <p align="center">
   <a href="#build-framework">
   <img src=".github/armbian-logo.png" alt="Armbian logo" width="144">
